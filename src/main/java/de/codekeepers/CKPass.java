@@ -29,7 +29,7 @@ public class CKPass {
             pkSigningInformation = new PKSigningInformationUtil().loadSigningInformationFromPKCS12AndIntermediateCertificate(keyStorePath, keyStorePassword, appleWWDRCA);
             pass = new PKPass();
             pass.setPassTypeIdentifier("pass.de.codekeepers.jpass");
-            pass.setAuthenticationToken("vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc");
+            pass.setAuthenticationToken("XXX");
             pass.setSerialNumber("12345678000");
             pass.setTeamIdentifier("8LW873B8B4");
             pass.setOrganizationName("CodeKeepers GmbH");
